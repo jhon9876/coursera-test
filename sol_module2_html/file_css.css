@@ -1,15 +1,17 @@
 div{
-  width: 31%;
+  /*width: 31%;*/
   border-width: 1px;
   border-style: solid;
   border-color: black;
   float: left;
-  padding: 1px;
-  margin:1%;
-  color: red;
-  background-color: blue
+  padding: 2px;
+  margin:0.5%;
+  color: black;
+  background-color: brown
 
 }
+
+
 
 #content{
   text-align: right;
@@ -17,11 +19,12 @@ div{
   width: 20%;
   height: 50%;
   background-color: green;
-  border-width: 5%;
+  border-width: 1%;
   border-style: solid;
   color:black;
   position: relative;
   bottom:18px;
+  left: 3px;
 float:right;
 
 
@@ -29,53 +32,66 @@ float:right;
 }
 
 h1{
-  color:red;
+  color:black;
   text-align: center;
 }
 
 /*pc*/
-/*@media(min-width:992px){
+
+@media(min-width:992px){
     #first{
       width: 31%;
-      height: 10%;
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
       float: left;
-      margin: 1%;
-      color: red;
-      background-color: blue
+      padding: 1px;
+
+      color: black;
+      background-color: brown
+
     }
-}
+
 #second{
   width: 31%;
-  height: 10%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
   float: left;
-  margin: 1%;
-  color: red;
-  background-color: blue
+  padding: 1px;
+
+  color: black;
+  background-color: brown
 }
 #third{
   width: 31%;
-  height: 10%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
   float: left;
-  margin: 1%;
-  color: red;
-  background-color: blue
-}*/
+  padding: 1px;
+
+  color: black;
+  background-color: brown
+}
+}
 /*tablet*/
-@media ((min-width:768px) and (max-width:991px)){
+@media (min-width:768px) and (max-width:991px){
 
 
   #first{
-    width: 20px;
-
+    width: 40%;
   }
   #second{
-    width: 20px;
-    margin: 5px
+    width: 40%;
+
+
 
   }
 
   #third{
-    width:100%;
+    width:81.5%;
+
   }
 }
 /*smartphone*/
